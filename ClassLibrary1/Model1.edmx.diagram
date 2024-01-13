@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3b66d011732c48fcb1d8010830de99d4" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="StamatDBModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.AdditionalPayments" Width="1.5" PointX="5.25" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Agregates" Width="1.5" PointX="7.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Breaking" Width="1.5" PointX="10.5" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.ClassMachine" Width="1.5" PointX="6" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Climate" Width="1.5" PointX="0.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Cultures" Width="1.5" PointX="6" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Disease" Width="1.5" PointX="9" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Farm" Width="1.5" PointX="3" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Fertilizer" Width="1.5" PointX="5.25" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Him" Width="1.5" PointX="5.25" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Intensification" Width="1.5" PointX="6" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.KindOfFuel" Width="1.5" PointX="5.25" PointY="67.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.KindOfWork" Width="1.5" PointX="0.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Machinery" Width="1.5" PointX="8.25" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Mechanizator" Width="1.5" PointX="5.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.MehMach" Width="1.5" PointX="10.5" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Pest" Width="1.5" PointX="9" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Predshest" Width="1.5" PointX="6" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.SickList" Width="1.5" PointX="7.5" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Soil" Width="1.5" PointX="3" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Sort" Width="1.5" PointX="11.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Stability" Width="1.5" PointX="13.5" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.StakesOfMech" Width="1.5" PointX="3" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.StakesOfWorkers" Width="1.5" PointX="10.5" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.TechKart" Width="1.5" PointX="10.5" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.TechPacket" Width="1.5" PointX="5.25" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.TKCosts" Width="1.5" PointX="12.75" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.TkPayments" Width="1.5" PointX="7.5" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.TKR" Width="1.5" PointX="8.25" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.Trailers" Width="1.5" PointX="5.25" PointY="60.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.TypeSort" Width="1.5" PointX="9" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.User" Width="1.5" PointX="5.25" PointY="63.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.WA_TKR" Width="1.5" PointX="15.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StamatDBModel.WorkAreas" Width="1.5" PointX="5.25" PointY="41.75" IsExpanded="true" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_AdditionalPayments_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TkPayments_dbo_AdditionalPayments_AdditionalPayments_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Agregates_dbo_ClassMachine_ClassMachine_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Agregates_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Agregates_dbo_KindOfFuel_KindOfFuel_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Agregates_dbo_Trailers_Trailers_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_Agregates_Agregates_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Breaking_dbo_Machinery_Machinery_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Machinery_dbo_ClassMachine_ClassMachine_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Farm_dbo_Climate_Climate_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Soil_dbo_Climate_Climate_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Sort_dbo_Cultures_Cultures_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechPacket_dbo_Cultures_Cultures_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKR_dbo_Cultures_Cultures_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Fertilizer_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Him_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Machinery_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Mechanizator_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Sort_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKR_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Trailers_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_User_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_WorkAreas_dbo_Farm_Farm_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_Fertilizer_Fertilizer_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_Him_Him_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechPacket_dbo_Intensification_Intensification_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKR_dbo_Intensification_Intensification_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_MehMach_dbo_Machinery_Machinery_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_Machinery_Machinery_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Mechanizator_dbo_StakesOfMech_StakesOfMech_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_MehMach_dbo_Mechanizator_Mechanizator_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_SickList_dbo_Mechanizator_Mechanizator_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_Mechanizator_Mechanizator_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechPacket_dbo_Predshest_Predshest_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKR_dbo_Predshest_Predshest_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechPacket_dbo_Soil_Soil_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_WorkAreas_dbo_Soil_Soil_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_Sort_dbo_TypeSort_TypeSort_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_WA_TKR_dbo_Sort_Sort_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_StakesOfWorkers_StakesOfWorkers_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechKart_dbo_TKR_TKR_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechKart_dbo_WorkAreas_WorkAreas_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TKCosts_dbo_TechKart_TechKart_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TkPayments_dbo_TechKart_TechKart_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_WA_TKR_dbo_TKR_TKR_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_WA_TKR_dbo_WorkAreas_WorkAreas_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.DiseaseSort" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.PestSort" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.PestWA_TKR" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.StabilitySort" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.StabilityWA_TKR" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.WA_TKRDisease" ManuallyRouted="false" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_KindOfFuel_dbo_Farm_Farm_Id" />
+        <EntityTypeShape EntityType="StamatDBModel.TehAgro" Width="1.5" PointX="3.375" PointY="2.5" />
+        <EntityTypeShape EntityType="StamatDBModel.TehAgroTO" Width="1.5" PointX="5.625" PointY="1.125" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TehAgroTO_dbo_TehAgro_TehAgro_Id" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_StakesOfMech_dbo_Farm_Farm_Id" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_StakesOfWorkers_dbo_Farm_Farm_Id" />
+        <EntityTypeShape EntityType="StamatDBModel.TechnologicalOperations" Width="1.5" PointX="3" PointY="39" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechnologicalOperations_dbo_KindOfWork_KindOfWork_Id" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_TechKart_dbo_TechnologicalOperations_TechnologicalOperations_Id" />
+        <AssociationConnector Association="StamatDBModel.ClimateTechnologicalOperations" />
+        <EntityTypeShape EntityType="StamatDBModel.OperationsOfAgregate" Width="1.5" PointX="9.75" PointY="46.375" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_OperationsOfAgregate_dbo_Agregates_Agregates_Id" />
+        <AssociationConnector Association="StamatDBModel.FK_dbo_OperationsOfAgregate_dbo_TechnologicalOperations_TechnologicalOperations_Id" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
